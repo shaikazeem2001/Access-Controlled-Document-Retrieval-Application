@@ -1,0 +1,44 @@
+# Core
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# LangChain
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# Auth
+firebase-admin>=6.5.0
+
+# Vector DB (Qdrant Cloud)
+langchain-qdrant>=0.1.0
+qdrant-client>=1.9.0
+
+# Embeddings & reranking
+openai>=1.30.0
+langchain-huggingface>=0.0.3   # HuggingFaceEmbeddings wrapper
+sentence-transformers>=3.0.0   # cross-encoder reranker
+tiktoken>=0.7.0                # token counting for chunking
+
+# BM25 sparse retrieval
+rank-bm25>=0.2.2
+
+# PDF structure-aware extraction (multi-column resume/CV support)
+pdfplumber>=0.11.0
+
+# Evaluation
+ragas>=0.1.0
+nest-asyncio>=1.6.0
+
+# Observability
+langsmith>=0.1.70
+
+# Document loaders
+pypdf>=4.2.0
+docx2txt>=0.8
+unstructured[md]>=0.14.0

@@ -1,0 +1,82 @@
+# Virtual environment
+
+.venv/
+venv/
+env/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+
+.env
+
+# ChromaDB session data
+
+vectorstore/session_*
+
+# Logs
+
+logs/
+*.log
+
+# Storage runtime data
+
+storage/
+
+# Ignore full vectorstore
+
+vectorstore/
+
+# Ignore debug scripts
+
+debug_*.py
+quick_diagnostics.py
+
+# Backup files
+
+*.bak
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
+
+# Pytest cache
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Files not to commit
+
+firebase-service-account.json
+golden_dataset.json
+golden_documents.json
+tests/conftest.py
+tests/pytest.ini
+tests/run_tests.sh
+tests/test_fixed_modules.py
+tests/test_integration_fixes.py
+data.MD
+evaluation/golden_existing_ragas_eval.py
+evaluation/golden_ragas_eval.py
+golden_existing_ragas_results.json
+golden_question_7_result.json
+golden_rag_results.json
+golden_ragas_results.csv
+golden_ragas_results.json
+import_golden_documents.py
+merge_golden_results.py
+rerun_question_7.py
+run_golden_dataset.py
